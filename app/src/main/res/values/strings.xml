@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InventoryApp</string>
+
+
+    //activity_catalog.xml strings
+
+    <string name="empty_view_title_text">No inventory here..</string>
+
+    <string name="empty_view_subtitle_text">Get started by adding inventory</string>
+
+    <string name="editor_activity_title_new_inventory">Add Inventory</string>
+
+    <string name="editor_activity_title_edit_inventory">Edit Inventory</string>
+
+
+    //activity_editor strings
+
+    <string name="hintInventoryName">Enter product name here</string>
+
+    <string name="hintInventoryQuantity">Quantity #</string>
+
+    <string name="hintInventoryPrice">Enter product price $</string>
+
+    <string name="initialQuantityValue">0</string>
+
+    <string name="hintInventorySupplier">Supplier Name</string>
+
+    <string name="editSupplierName">Enter supplier name here</string>
+
+    <string name="selectImage">Select Image</string>
+
+    <string name="inventoryImage">Inventory Image</string>
+
+
+    //list_item strings
+
+    <string name="name">Product Name</string>
+
+    <string name="quantitySymbol">Quantity #:</string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="priceSymbol">Price $:</string>
+
+    <string name="price">Price:</string>
+
+    <string name="supplier">Supplier</string>
+
+    <string name="image">Image</string>
+
+    <string name="image_button">Select Image</string>
+
+
+    //menu_catalog.xml strings
+
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <string name="action_delete_one_entry">Delete One Entry</string>
+
+    <string name="action_delete_all_entries">Delete All Entries</string>
+
+
+    //menu_editor.xml strings
+
+    <string name="action_save">Save</string>
+
+    <string name="sale">Sale</string>
+
+    <string name="order_more">Order More</string>
+
+    <string name="action_delete">Delete</string>
+
+
+    // Java activity strings
+
+    <string name="editor_insert_inventory">Please insert missing inventory</string>
+
+    <string name="editor_insert_inventory_successful">Inventory saved</string>
+
+    <string name="editor_insert_inventory_failed">Error with saving inventory</string>
+
+    <string name="editor_update_inventory_successful">Inventory updated</string>
+
+    <string name="editor_update_inventory_failed">Error with updating inventory</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="editor_delete_inventory_successful">Inventory deleted</string>
+
+    <string name="editor_delete_inventory_failed">Error with deleting inventory</string>
+
+    <string name="delete_dialog_msg">Delete this inventory?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+
+
+    <string name="order">Order</string>
+
+
+    <string name="unknown_name">Unknown Name</string>
+
+    <string name="unknown_quantity">Unknown Quantity</string>
+
+    <string name="unknown_price">Unknown Price</string>
+
+    <string name="unknown_supplier">Unknown Supplier</string>
+
+</resources>

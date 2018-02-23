@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for the editor -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintInventorySupplier"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editInventorySupplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editSupplierName"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/editInventoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintInventoryName"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintInventoryQuantity"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/editDecreaseQuantity"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="decreaseQuantity"
+                android:text="-"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/editInventoryQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/initialQuantityValue"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/editIncreaseQuantity"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="increaseQuantity"
+                android:text="+"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/editInventoryPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintInventoryPrice"
+            android:inputType="number"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/selectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectImage"
+            android:onClick="selectImage"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/editInventoryImage"
+            android:src="@drawable/imagenotfound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:contentDescription="@string/inventoryImage"/>
+
+    </LinearLayout>
+
+</LinearLayout>
